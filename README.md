@@ -1,12 +1,18 @@
 # React components practice
 
-Create the following user interface using React! Do not create the functionality of it.
+Create the following user interface using React!
 
 ## Requirements
-- Set up the React app from scratch<br>
-You can follow [this](https://reactjs.org/docs/create-a-new-react-app.html) documentation to create a react app from scratch!<br>
-And to create a react app in your current directory, you can run this command: `npx create-react-app .`
-- Create the three components as seen in the image.
-- For the last component that have the todos, create an array with the todos and map over them in react.
+- Run ```npm install``` in the root directory of the folder to install the necessary modules. (This might take some time depending on your internet speed)
+- Create the three components as seen in the image:
+  1. Component for the ```<Title>```
+  2. Component for the ```<List>```
+  3. Component for a single ```<ListItem>```.
+- Add the 3 ```<ListItem>``` as you see in the screenshot.
 
-![1](https://user-images.githubusercontent.com/32653855/118800786-f8049b00-b8a8-11eb-9f26-3ac20a97b183.png)
+Bonus:
+- You notice how using the ```<ListItem>``` component 3 times for the ```Eggs, Milk, Rice``` is not the ideal solution. What if we want to add more? If you finished early, use [this](https://reactjs.org/docs/lists-and-keys.html) page to learn about how you can go over arrays.
+
+
+
+![ibm-watson-data-lab github io_list_list_ckovik5rx00003b6hplbvq27f (1)](https://user-images.githubusercontent.com/4890766/118828009-8e46ba00-b8c5-11eb-8d81-a4db3bac85cb.png)
